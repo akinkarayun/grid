@@ -1,0 +1,31 @@
+/* This is a common file will be used in three different example*/
+
+body {
+  background: #555555;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #436288;
+  color: #ffffff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem, 0.5rem, rgba(2, 8, 20, 0.1) 0px,
+    0.075rem 0.175rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  height: 100px;
+  /* width: 100%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35rem, 1.175rem,
+    rgba(2, 8, 20, 0.08) 0px, 0.175rem 0.5rem;
+  transform: translateY(-3px) scale(0.9);
+}
